@@ -1,0 +1,50 @@
+// =======================================
+//     List of variables for layout
+// =======================================
+
+$header-height: 60px;
+$sidebar-width: 260px;
+$sidebar-collapsed-width: 60px;
+$sidebar-collapsed-active-width: 300px;
+
+// header
+$header-background: #fff;
+$header-color: #141414;
+$header-shadow: 0 1px 0 0px rgb(240 240 240);
+$brand-color: #161c25;
+
+// Menu
+$sidebar-background: #fff;
+$sidebar-color: #141414;
+$sidebar-active-color: $primary;
+$sidebar-caption: #8c8c8c;
+$sidebar-shadow: 1px 0 0 0px rgb(240 240 240);
+
+// horizontal menu
+$topbar-height: 60px;
+$topbar-background: #141414;
+$topbar-color: #141414;
+$header-submenu-background: #fff;
+$header-submenu-color: #141414;
+
+// card block
+
+//$card-shadow: inset 0 0 0 1px rgba(144, 202, 249, 0.46);
+$card-shadow: none;
+
+$soft-bg-level: -80%;
+// =====================================
+//      Variables for dark layouts
+// =====================================
+
+// header
+$dark-header-color: #d6d6d6;
+$dark-header-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
+
+// Menu
+$dark-sidebar-color: #bfbfbf;
+$dark-sidebar-caption: #d6d6d6;
+$dark-sidebar-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
+
+// card block
+$dark-card-shadow: inset 0 0 0 1px #141414;

@@ -1,0 +1,19 @@
+// ============================
+//     Progress css start
+// ============================
+
+.progress {
+  overflow: visible;
+  .progress-bar {
+    border-radius: $progress-border-radius;
+  }
+  @each $color, $value in $theme-colors {
+    &.progress-#{$color} {
+      background: shift-color($value, $soft-bg-level);
+      .progress-bar {
+        background: $value;
+      }
+    }
+  }
+}
+// Progress css end

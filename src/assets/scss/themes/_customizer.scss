@@ -1,0 +1,202 @@
+/**======================================================================
+=========================================================================
+Template Name: DashboardKit - Most Complete Bootstrap Admin Template
+Author: DashboardKit
+Support: dashboardkit@gmail.com
+File: style.css
+=========================================================================
+=================================================================================== */
+// theme font
+// main framework
+$menu-styler: 340px;
+$pct-colors: ();
+$pct-colors: map-merge(
+  (
+    'primary': $primary,
+    'success': $success,
+    'info': $info,
+    'warning': $warning,
+    'danger': $danger,
+    'dark': $dark
+  ),
+  $pct-colors
+);
+
+.pct-c-btn {
+  display: block;
+  padding: 0;
+  position: fixed;
+  right: 10px;
+  top: 200px;
+  z-index: 1030;
+  transition: all 0.15s ease-in-out;
+  .btn {
+    padding: 12px;
+    border-radius: 50% 50% 4px 50%;
+    box-shadow: 0px 12px 14px 0px rgba(103, 58, 183, 0.3);
+  }
+
+  @media (max-width: 1024px) {
+    display: none;
+  }
+}
+.pct-offcanvas {
+  --bs-offcanvas-width: #{$menu-styler};
+  .offcanvas-body {
+    padding: 0;
+  }
+  .avtar.avtar-xs {
+    width: 36px;
+    height: 36px;
+  }
+  .list-group-item {
+    padding: 0;
+    > div > .pct-content,
+    a.btn {
+      padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x);
+    }
+  }
+}
+
+.doc-img,
+.theme-color {
+  display: block;
+  position: relative;
+  padding: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  > a {
+    position: relative;
+    border-radius: 4px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    background: $border-color;
+    border: 2px solid $border-color;
+    overflow: hidden;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    padding: 10px 0px 6px;
+    width: calc(100% / 3.8);
+
+    span {
+      &:nth-child(1) {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 6px;
+        border-radius: 2px;
+      }
+      &:nth-child(2) {
+        color: $body-color;
+      }
+    }
+    &.active {
+      background: shift-color($primary, $soft-bg-level);
+      border-color: $primary;
+    }
+  }
+  &.fontpreset-color {
+    a {
+      width: calc(50% - 24px);
+      span {
+        &:nth-child(1) {
+          width: 100%;
+          height: auto;
+          font-size: 20px;
+          text-align: center;
+        }
+      }
+    }
+  }
+  &.themepreset-color {
+    span {
+      &:nth-child(1) {
+        width: 64px;
+        height: 64px;
+        border-radius: 2px;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+  &.preset-color {
+    $i: 1;
+    @each $name, $value in $preset-colors {
+      > a {
+        &[data-value='preset-#{$i}'] {
+          > span:nth-child(1) {
+            background: map-get($value, 'primary');
+          }
+        }
+      }
+      $i: $i + 1;
+    }
+  }
+}
+
+.doc-img {
+  > a {
+    width: 100px;
+    height: 65px;
+  }
+}
+
+// header color varient Start
+$header-c-background: #141414;
+$header-c-color: #fff;
+
+.pc-header {
+  &[class*='bg-'],
+  &.dark-header {
+    box-shadow: none;
+    background: $header-c-background;
+    color: $header-c-color;
+
+    @media (min-width: 1025px) {
+      .pc-head-link {
+        color: $header-c-color;
+
+        i {
+          color: $header-c-color;
+        }
+
+        .material-icons-two-tone {
+          background-color: $header-c-color;
+        }
+
+        &.active,
+        &:active,
+        &:focus,
+        &:hover {
+          color: $header-c-color;
+          background: transparentize($white, 0.85);
+
+          .material-icons-two-tone {
+            background-color: $header-c-color;
+          }
+        }
+
+        .user-desc {
+          color: transparentize($header-c-color, 0.3);
+        }
+      }
+    }
+  }
+}
+
+// header color varient end
+
+[data-pc-layout='compact'] [data-pc-layout='horizontal'] {
+  .pc-rtl {
+    display: none;
+  }
+}
+.auth-main {
+  ~ .pct-offcanvas {
+    .pc-boxcontainer {
+      display: none;
+    }
+  }
+}
