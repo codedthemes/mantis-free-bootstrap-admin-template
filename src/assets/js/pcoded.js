@@ -1,9 +1,6 @@
 'use strict';
 var flg = '0';
 document.addEventListener('DOMContentLoaded', function () {
-  // feather icon start
-  feather.replace();
-  // feather icon end
   // remove pre-loader start
   setTimeout(function () {
     document.querySelector('.loader-bg').remove();
