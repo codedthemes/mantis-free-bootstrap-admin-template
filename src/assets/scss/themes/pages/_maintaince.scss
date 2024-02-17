@@ -1,0 +1,76 @@
+/**  =====================
+      Maintaince css start
+==========================  **/
+
+.maintenance-block {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.error-card {
+  box-shadow: none;
+  text-align: center;
+  border: none;
+  overflow: hidden;
+  .error-image-block {
+    position: relative;
+    text-align: center;
+    display: inline-flex;
+    .img-twocone {
+      position: absolute;
+      bottom: -30%;
+      right: -50%;
+      @media (max-width: 575.98px) {
+        transform: scale(0.4);
+        bottom: -75%;
+        right: -43%;
+      }
+    }
+  }
+}
+
+.construction-card {
+  border: none;
+  text-align: center;
+}
+.soon-card {
+  border: none;
+  text-align: center;
+  .soon-image-block {
+    position: relative;
+    display: inline-block;
+  }
+  .timer-block {
+    .avtar {
+      position: relative;
+      overflow: hidden;
+      flex-direction: column;
+      border: 1px solid $border-color;
+      height: 100px;
+      padding-bottom: 28px;
+      span {
+        background: $border-color;
+        font-size: 0.75rem;
+        font-weight: 500;
+        width: 100%;
+        padding: 5px 0;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 575.98px) {
+  .timer-block {
+    .avtar.avtar-xl {
+      width: 46px;
+      height: 70px;
+      font-size: 16px;
+    }
+  }
+}
+/**====== Maintaince css end ======**/

@@ -3,17 +3,18 @@
 <!-- [Head] start -->
 
 <head>
-  @@include('../layouts/head-page-meta.html', {'title': ''}) @@include('../layouts/head-css.html')
+  @@include('../layouts/head-page-meta.html', {'title': 'Home'}) @@include('../layouts/head-css.html')
 </head>
 <!-- [Head] end -->
 <!-- [Body] Start -->
 
-<body>
+<body @@bodySetup>
   @@include('../layouts/layout-vertical.html')
 
   <!-- [ Main Content ] start -->
   <div class="pc-container">
     <div class="pc-content">
+      @@include('../layouts/breadcrumb.html', {'breadcrumb-item': 'Dashboard', 'breadcrumb-item-active': 'Home'})
       <!-- [ Main Content ] start -->
       <div class="row">
         <!-- [ sample-page ] start -->
@@ -111,7 +112,7 @@
                     <tr>
                       <th>TRACKING NO.</th>
                       <th>PRODUCT NAME</th>
-                      <th class="text-end">TOTAL ORDER</th>
+                      <th>TOTAL ORDER</th>
                       <th>STATUS</th>
                       <th class="text-end">TOTAL AMOUNT</th>
                     </tr>
@@ -120,81 +121,87 @@
                     <tr>
                       <td><a href="#" class="text-muted">84564564</a></td>
                       <td>Camera Lens</td>
-                      <td class="text-end">40</td>
-                      <td><span class="px-4 d-block"><i class="ti ti-circle-x text-danger m-r-5"></i>Rejected</span>
+                      <td>40</td>
+                      <td><span class="d-flex align-items-center gap-2"><i
+                            class="fas fa-circle text-danger f-10 m-r-5"></i>Rejected</span>
                       </td>
                       <td class="text-end">$40,570</td>
                     </tr>
                     <tr>
                       <td><a href="#" class="text-muted">84564564</a></td>
                       <td>Laptop</td>
-                      <td class="text-end">300</td>
-                      <td><span class="px-4 d-block"><i class="ti ti-alert-circle text-warning m-r-5"></i>Pending</span>
+                      <td>300</td>
+                      <td><span class="d-flex align-items-center gap-2"><i
+                            class="fas fa-circle text-warning f-10 m-r-5"></i>Pending</span>
                       </td>
                       <td class="text-end">$180,139</td>
                     </tr>
                     <tr>
                       <td><a href="#" class="text-muted">84564564</a></td>
                       <td>Mobile</td>
-                      <td class="text-end">355</td>
-                      <td><span class="px-4 d-block"><i
-                            class="ti ti-circle-check text-success m-r-5"></i>Approved</span></td>
+                      <td>355</td>
+                      <td><span class="d-flex align-items-center gap-2"><i
+                            class="fas fa-circle text-success f-10 m-r-5"></i>Approved</span></td>
                       <td class="text-end">$180,139</td>
                     </tr>
                     <tr>
                       <td><a href="#" class="text-muted">84564564</a></td>
                       <td>Camera Lens</td>
-                      <td class="text-end">40</td>
-                      <td><span class="px-4 d-block"><i class="ti ti-circle-x text-danger m-r-5"></i>Rejected</span>
+                      <td>40</td>
+                      <td><span class="d-flex align-items-center gap-2"><i
+                            class="fas fa-circle text-danger f-10 m-r-5"></i>Rejected</span>
                       </td>
                       <td class="text-end">$40,570</td>
                     </tr>
                     <tr>
                       <td><a href="#" class="text-muted">84564564</a></td>
                       <td>Laptop</td>
-                      <td class="text-end">300</td>
-                      <td><span class="px-4 d-block"><i class="ti ti-alert-circle text-warning m-r-5"></i>Pending</span>
+                      <td>300</td>
+                      <td><span class="d-flex align-items-center gap-2"><i
+                            class="fas fa-circle text-warning f-10 m-r-5"></i>Pending</span>
                       </td>
                       <td class="text-end">$180,139</td>
                     </tr>
                     <tr>
                       <td><a href="#" class="text-muted">84564564</a></td>
                       <td>Mobile</td>
-                      <td class="text-end">355</td>
-                      <td><span class="px-4 d-block"><i
-                            class="ti ti-circle-check text-success m-r-5"></i>Approved</span></td>
+                      <td>355</td>
+                      <td><span class="d-flex align-items-center gap-2"><i
+                            class="fas fa-circle text-success f-10 m-r-5"></i>Approved</span></td>
                       <td class="text-end">$180,139</td>
                     </tr>
                     <tr>
                       <td><a href="#" class="text-muted">84564564</a></td>
                       <td>Camera Lens</td>
-                      <td class="text-end">40</td>
-                      <td><span class="px-4 d-block"><i class="ti ti-circle-x text-danger m-r-5"></i>Rejected</span>
+                      <td>40</td>
+                      <td><span class="d-flex align-items-center gap-2"><i
+                            class="fas fa-circle text-danger f-10 m-r-5"></i>Rejected</span>
                       </td>
                       <td class="text-end">$40,570</td>
                     </tr>
                     <tr>
                       <td><a href="#" class="text-muted">84564564</a></td>
                       <td>Laptop</td>
-                      <td class="text-end">300</td>
-                      <td><span class="px-4 d-block"><i class="ti ti-alert-circle text-warning m-r-5"></i>Pending</span>
+                      <td>300</td>
+                      <td><span class="d-flex align-items-center gap-2"><i
+                            class="fas fa-circle text-warning f-10 m-r-5"></i>Pending</span>
                       </td>
                       <td class="text-end">$180,139</td>
                     </tr>
                     <tr>
                       <td><a href="#" class="text-muted">84564564</a></td>
                       <td>Mobile</td>
-                      <td class="text-end">355</td>
-                      <td><span class="px-4 d-block"><i
-                            class="ti ti-circle-check text-success m-r-5"></i>Approved</span></td>
+                      <td>355</td>
+                      <td><span class="d-flex align-items-center gap-2"><i
+                            class="fas fa-circle text-success f-10 m-r-5"></i>Approved</span></td>
                       <td class="text-end">$180,139</td>
                     </tr>
                     <tr>
                       <td><a href="#" class="text-muted">84564564</a></td>
                       <td>Mobile</td>
-                      <td class="text-end">355</td>
-                      <td><span class="px-4 d-block"><i
-                            class="ti ti-circle-check text-success m-r-5"></i>Approved</span></td>
+                      <td>355</td>
+                      <td><span class="d-flex align-items-center gap-2"><i
+                            class="fas fa-circle text-success f-10 m-r-5"></i>Approved</span></td>
                       <td class="text-end">$180,139</td>
                     </tr>
                   </tbody>
@@ -290,40 +297,18 @@
               </a>
             </div>
           </div>
-          <div class="card">
-            <div class="card-body">
-              <div class="row justify-content-between">
-                <div class="col-auto">
-                  <h5>Help & Support Chat</h5>
-                  <p class="mb-3">Typical replay within 5 min</p>
-                </div>
-                <div class="col-auto">
-                  <div class="user-group mb-3">
-                    <img src="../assets/images/user/avatar-1.jpg" alt="image">
-                    <img src="../assets/images/user/avatar-2.jpg" alt="image">
-                    <img src="../assets/images/user/avatar-3.jpg" alt="image">
-                  </div>
-                </div>
-              </div>
-              <div class="d-grid">
-                <div class="btn btn-primary">Need Help?</div>
-              </div>
-            </div>
-          </div>
         </div>
-        <!-- [ sample-page ] end -->
       </div>
-      <!-- [ Main Content ] end -->
     </div>
   </div>
   <!-- [ Main Content ] end -->
-  @@include('../layouts/footer-block.html') @@include('../layouts/footer-js.html')
+  @@include('../layouts/footer-block.html')
 
   <!-- [Page Specific JS] start -->
-  <!-- Apex Chart -->
   <script src="../assets/js/plugins/apexcharts.min.js"></script>
   <script src="../assets/js/pages/dashboard-default.js"></script>
   <!-- [Page Specific JS] end -->
+  @@include('../layouts/footer-js.html')
 </body>
 <!-- [Body] end -->
 

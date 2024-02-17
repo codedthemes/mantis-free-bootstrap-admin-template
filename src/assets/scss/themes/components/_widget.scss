@@ -1,5 +1,5 @@
 // ============================
-//     Widget css start
+//    10. Widget css start
 // ============================
 .dashnum-card {
   position: relative;
@@ -1092,7 +1092,7 @@
     position: absolute;
     top: -30px;
     right: -30px;
-    box-shadow: $card-shadow;
+    box-shadow: var(--pc-card-box-shadow);
 
     > svg {
       transition: all 0.3s ease-in-out;
@@ -1438,7 +1438,7 @@
     padding: 5px 10px;
     margin-right: 10px;
     margin-bottom: 0;
-    box-shadow: $card-shadow;
+    box-shadow: var(--pc-card-box-shadow);
   }
 }
 
@@ -1540,7 +1540,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: $card-shadow;
+    box-shadow: var(--pc-card-box-shadow);
   }
 }
 
@@ -1552,7 +1552,7 @@
     align-items: center;
     display: flex;
     border-radius: 5px;
-    box-shadow: $card-shadow;
+    box-shadow: var(--pc-card-box-shadow);
   }
   @media screen and (max-width: 375px) {
     .hct-icon {
@@ -2010,21 +2010,5 @@
   bottom: 0;
   right: 0;
   width: 45%;
-}
-.user-group {
-  img {
-    position: relative;
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    z-index: 2;
-    transition: all 0.1s ease-in-out;
-    border: 2px solid $card-bg;
-    + img {
-      margin-left: -14px;
-    }
-    &:hover {
-      z-index: 5;
-    }
-  }
+  max-width: 160px;
 }

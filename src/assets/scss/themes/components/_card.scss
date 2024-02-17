@@ -1,18 +1,17 @@
 // ============================
-//     Card css start
+//    15. Card css start
 // ============================
 
 .card {
-  //box-shadow: $card-shadow;
+  box-shadow: var(--pc-card-box-shadow);
   margin-bottom: 24px;
   transition: box-shadow 0.2s ease-in-out;
 
   .card-header {
-    border-bottom: 1px solid $border-color;
+    border-bottom: 1px solid var(--bs-card-border-color);
 
     h5 {
       margin-bottom: 0;
-      color: $headings-color;
       font-size: 0.875rem;
       font-weight: 600;
 
@@ -105,7 +104,6 @@
 
   .card-footer {
     transition: box-shadow 0.2s ease-in-out;
-    border-top: 1px solid $border-color;
   }
 
   &:hover {
@@ -113,12 +111,6 @@
       box-shadow: none;
     }
   }
-
-  // @each $color, $value in $theme-colors {
-  //     &.bg-#{$color} {
-  //         box-shadow: 0 9px 9px -1px transparentize($value, 0.7);
-  //     }
-  // }
 }
 
 @include media-breakpoint-down(sm) {
@@ -136,4 +128,6 @@
   }
 }
 
-// Card css end
+// ============================
+//    15. Card css end
+// ============================

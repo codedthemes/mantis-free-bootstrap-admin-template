@@ -1,0 +1,275 @@
+/**  =====================
+  25. Application css start
+==========================  **/
+@import "chat";
+@import "mail";
+@import "calendar";
+@import "e-commerce";
+// Common Application css start for all apllication pages
+.profile-tabs {
+  border-bottom: 0;
+  .nav-item {
+    margin-bottom: -0px;
+
+    .nav-link {
+      position: relative;
+      padding: 0.7rem 0;
+      margin: 0 1rem;
+      font-weight: 500;
+      color: var(--bs-body-color);
+      display: inline-flex;
+      align-items: center;
+      @include media-breakpoint-down(sm) {
+        padding: 0.8rem 0;
+      }
+      i {
+        font-size: 18px;
+      }
+      .material-icons-two-tone {
+        font-size: 20px;
+      }
+      &:after {
+        content: "";
+        background: var(--bs-primary);
+        position: absolute;
+        transition: all 0.3s ease-in-out;
+        left: 50%;
+        right: 50%;
+        bottom: -1px;
+        height: 2px;
+        border-radius: 2px 2px 0 0;
+      }
+    }
+  }
+
+  .nav-link:hover {
+    border-color: transparent;
+    background: transparent;
+    color:var(--bs-primary);
+    .material-icons-two-tone {
+      background-color: var(--bs-primary);
+    }
+  }
+
+  .nav-item.show .nav-link,
+  .nav-link.active {
+    border-color: transparent;
+    color: var(--bs-primary);
+    background: transparent;
+    .material-icons-two-tone {
+      background-color: var(--bs-primary);
+    }
+    &:after {
+      left: 0;
+      right: 0;
+    }
+  }
+}
+.account-tabs {
+  border-bottom: 0;
+  .nav-item {
+    margin-bottom: -0px;
+
+    .nav-link {
+      position: relative;
+      padding: 0.7rem 0;
+      margin: 0 1rem;
+      font-weight: 500;
+      color: $body-color;
+      display: flex;
+      align-items: center;
+      .material-icons-two-tone {
+        font-size: 24px;
+      }
+    }
+  }
+
+  .nav-link:hover {
+    border-color: transparent;
+    color: $primary;
+    h5 {
+      color: $primary;
+    }
+    .material-icons-two-tone {
+      background-color: $primary;
+    }
+  }
+
+  .nav-item.show .nav-link,
+  .nav-link.active {
+    border-color: transparent;
+    color: $primary;
+    h5 {
+      color: $primary;
+    }
+    .material-icons-two-tone {
+      background-color: $primary;
+    }
+  }
+}
+.social-profile {
+  .img-profile-avtar {
+    border-radius: $border-radius;
+    width: 140px;
+    margin-top: -50%;
+  }
+
+  @include media-breakpoint-down(md) {
+    text-align: center;
+    .img-profile-avtar {
+      margin-top: -70px;
+    }
+    .soc-profile-data {
+      margin-top: 24px;
+      margin-bottom: 24px;
+    }
+  }
+}
+.img-post-title {
+  background: linear-gradient(rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.3) 70%, rgba(0, 0, 0, 0) 100%);
+}
+.form-search {
+  position: relative;
+  i {
+    position: absolute;
+    top: 12px;
+    left: 15px;
+    font-size: 20px;
+  }
+  .form-control {
+    padding-left: 50px;
+  }
+}
+.follower-card {
+  background: #fafafa;
+  border: 1px solid #f5f5f5;
+  &:hover {
+    border-color: var(--bs-primary);
+  }
+  .friend-btn {
+    &:not(:hover) {
+      border-color: #eeeeee;
+      background: var(--bs-card-bg);
+    }
+  }
+}
+.gallery-card {
+  background: #fafafa;
+  border: 1px solid #f5f5f5;
+}
+.profile-back-card {
+  background: #fafafa;
+  border: 1px solid #f5f5f5;
+  overflow: hidden;
+  text-align: center;
+  .img-userprofile {
+    width: 70px;
+    margin-top: -50px;
+  }
+}
+.user-group {
+  img {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    z-index: 2;
+    transition: all 0.1s ease-in-out;
+    border: 2px solid $card-bg;
+    + img {
+      margin-left: -14px;
+    }
+    &:hover {
+      z-index: 5;
+    }
+  }
+}
+.invoice-card {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.order-timeline {
+  &:not(:last-child) {
+    margin-bottom: 24px;
+  }
+  .timeline-progress {
+    position: relative;
+    height: 100%;
+    &:after,
+    &:before {
+      content: "";
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    &:before {
+      top: 0;
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      border: 4px solid var(--bs-card-border-color);
+    }
+    &:after {
+      top: 25px;
+      width: 2px;
+      height: calc(100% - 25px);
+      border-radius: 3px;
+      background: var(--bs-card-border-color);
+    }
+    &.active {
+      &:before {
+        border-color: var(--bs-primary);
+      }
+      &:after {
+        background: var(--bs-primary);
+      }
+    }
+    &.half-active {
+      &:before {
+        border-color: var(--bs-primary);
+      }
+    }
+  }
+  @include media-breakpoint-down(md) {
+    position: relative;
+    .timeline-progress {
+      position: static;
+      &:after,
+      &:before {
+        left: 25px;
+      }
+    }
+  }
+}
+.contact_list {
+  @media (max-width: 575.98px) {
+    .media {
+      display: block;
+      a {
+        display: inline-block;
+        vertical-align: middle;
+      }
+      > div {
+        margin: 10px 0 0 70px;
+        width: 100%;
+      }
+    }
+  }
+}
+.table {
+  tr {
+    td {
+      .row {
+        margin-right: 50px;
+        .col {
+          display: flex;
+          flex-direction: column;
+          width: 1%;
+        }
+      }
+    }
+  }
+}
+/**  =====================
+  25. Application css end
+==========================  **/

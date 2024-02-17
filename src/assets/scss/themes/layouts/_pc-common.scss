@@ -1,13 +1,7 @@
 // ============================
-//     Common layout css start
+//   6. Common layout css start
 // ============================
 
-body {
-  background-color: $sidebar-background;
-}
-a {
-  --bs-link-color: $body-color;
-}
 
 .pc-container {
   $temp: $header-height + 61;
@@ -15,18 +9,23 @@ a {
   top: $header-height;
   margin-left: $sidebar-width;
   min-height: calc(100vh - #{$temp});
-  background: $body-bg;
 
   .pc-content {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
     padding-top: 20px;
+    @include media-breakpoint-down(xl) {
+      &.container{
+        max-width: 100%;
+      }
+    }
   }
 
-  .page-header + .row {
+  .page-header+.row {
     padding-top: 24px;
   }
-  .page-header + .pc-content {
+
+  .page-header+.pc-content {
     padding-top: calc(30px + 55px);
   }
 }
@@ -40,7 +39,6 @@ a {
   z-index: 1023;
   min-height: 55px;
   padding: 13px 0px;
-  box-shadow: $card-shadow;
   background: transparent;
   border-radius: $border-radius;
 
@@ -67,7 +65,7 @@ a {
     font-size: 13px;
 
     a {
-      color: $body-color;
+      color: var(--bs-body-color);
     }
 
     .breadcrumb-item {
@@ -75,7 +73,7 @@ a {
         color: $primary;
       }
 
-      + .breadcrumb-item::before {
+      +.breadcrumb-item::before {
         position: relative;
         top: 2px;
       }
@@ -100,7 +98,7 @@ a {
     position: relative;
   }
 
-  > .container {
+  >.container {
     z-index: 5;
     position: relative;
     margin-top: -60px;
@@ -114,7 +112,7 @@ a {
     th {
       border: none;
 
-      + th {
+      +th {
         border-radius: 5px 5px 0 0;
         padding: 20px 0;
       }
@@ -132,17 +130,18 @@ a {
     th {
       text-align: right;
 
-      + td,
-      + th {
+      +td,
+      +th {
         text-align: center;
       }
 
-      + td {
+      +td {
         border-left: 1px solid $body-bg;
       }
     }
   }
 }
+
 // ======= Burgur menu start
 
 .hamburger {
@@ -170,7 +169,7 @@ a {
   margin-top: -2px;
   width: 18px;
   height: 2px;
-  background-color: $header-color;
+  background-color: var(--pc-header-color);
   border-radius: 4px;
   position: absolute;
   transition: transform 0.15s ease;
@@ -179,7 +178,7 @@ a {
   &::before {
     width: 18px;
     height: 2px;
-    background-color: $header-color;
+    background-color: var(--pc-header-color);
     border-radius: 4px;
     position: absolute;
     transition: transform 0.15s ease;
@@ -187,7 +186,7 @@ a {
 
   &::after,
   &::before {
-    content: "";
+    content: '';
     display: block;
   }
 
@@ -211,13 +210,15 @@ a {
 .hamburger--arrowturn.is-active .hamburger-inner::after {
   transform: translate3d(4px, -2px, 0) rotate(-45deg) scale(0.7, 1);
 }
+
 // ======= Burgur menu End
 @media (max-width: 1024px) {
   .pc-container {
     margin-left: 0px;
     margin-right: 0px;
-    .page-header + .row,
-    .page-header + .pc-content,
+
+    .page-header+.row,
+    .page-header+.pc-content,
     .pc-content {
       padding-top: 20px;
       padding-left: 15px;
@@ -233,7 +234,12 @@ a {
     margin-right: 10px;
   }
 }
+
 @include media-breakpoint-down(sm) {
+  .col-form-label {
+    padding-top: 0;
+    padding-bottom: 5px;
+  }
   .pc-container {
     .pc-content {
       padding: 15px;
@@ -243,10 +249,17 @@ a {
       padding-left: 0;
       padding-right: 0;
     }
+
+    .page-header+.row,
+    .page-header+.pc-content
+    {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
   }
 
   .page-header {
-    padding: 13px 20px;
 
     h5 {
       padding-bottom: 5px;
@@ -341,9 +354,10 @@ a {
 }
 
 .simplebar-content {
+
   &:before,
   &:after {
-    content: " ";
+    content: ' ';
     display: table;
   }
 }
@@ -418,7 +432,7 @@ a {
 
   &:before {
     position: absolute;
-    content: "";
+    content: '';
     background: darken($body-bg, 25%);
     border-radius: 7px;
     left: 2px;
@@ -468,7 +482,7 @@ a {
 
 /* Rtl support */
 
-[data-simplebar-direction="rtl"] .simplebar-track.simplebar-vertical {
+[data-simplebar-direction='rtl'] .simplebar-track.simplebar-vertical {
   right: auto;
   left: 0;
 }
@@ -492,7 +506,7 @@ a {
   scrollbar-width: none;
   -ms-overflow-style: none;
 }
-// Common layout css end
+
 .footer-wrapper,
 .pc-content {
   &.container {
@@ -513,3 +527,6 @@ a {
     }
   }
 }
+// ============================
+//   6. Common layout css end
+// ============================
