@@ -1,0 +1,125 @@
+/**  =====================
+      Chat css start
+==========================  **/
+.chat-wrapper {
+  display: flex;
+  .chat-user_list {
+    width: 300px;
+    border-right: 1px solid var(--bs-border-color);
+    .scroll-block {
+      height: calc(100vh - 500px);
+    }
+  }
+  .chat-content {
+    flex: 1 1 auto;
+    min-width: 1%;
+  }
+  .chat-user_info {
+    width: 300px;
+    border-left: 1px solid var(--bs-border-color);
+    .scroll-block {
+      height: calc(100vh - 435px);
+    }
+    .chat-avtar {
+      img {
+        border: 1px solid var(--bs-success);
+        padding: 3px;
+      }
+      .chat-badge {
+        bottom: 8px;
+        right: 8px;
+        width: 14px;
+        height: 14px;
+      }
+    }
+  }
+
+  .chat-offcanvas {
+    --bs-offcanvas-width: 301px;
+    &.show {
+      .collapse:not(.show) {
+        display: block;
+      }
+      .chat-user_list {
+        margin-right: 0;
+        .scroll-block {
+          height: calc(100vh - 390px);
+        }
+      }
+      .chat-user_info {
+        margin-left: 0;
+        .scroll-block {
+          height: calc(100vh - 325px);
+        }
+      }
+    }
+  }
+}
+.chat-badge {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  color: #fff;
+  overflow: hidden;
+  &::before {
+    font-size: 21px;
+    line-height: 1;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+.chat-badge-status {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  font-size: 16px;
+  display: inline-block;
+}
+.chat-avtar {
+  position: relative;
+  .chat-badge {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+}
+.chat-message {
+  &.scroll-block {
+    height: calc(100vh - 380px);
+  }
+  .msg-content {
+    padding: 12px 16px;
+    border-radius: var(--bs-border-radius);
+    margin-bottom: 8px;
+    @include media-breakpoint-down(md) {
+      max-width: 90%;
+    }
+  }
+  .message-out,
+  .message-in {
+    display: flex;
+    margin-bottom: 24px;
+    .d-flex {
+      max-width: 80%;
+    }
+  }
+  .message-out {
+    justify-content: flex-end;
+    p {
+      color: #fff;
+    }
+    p:last-child {
+      text-align: right;
+    }
+  }
+  .message-in {
+    justify-content: flex-start;
+  }
+}
+
+// Chat css end

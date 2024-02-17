@@ -1,0 +1,58 @@
+// ==========================
+//       Price css start
+// ==========================
+
+.price-card {
+  .price-icon {
+    display: flex;
+    align-items: center;
+    img {
+      margin-right: 8px;
+    }
+  }
+
+  h2 {
+    position: relative;
+  }
+
+  .price-price {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1;
+
+    span {
+      font-weight: 400;
+      font-size: 0.875rem;
+    }
+  }
+
+  .product-list {
+    text-align: left;
+
+    li {
+      padding: 8px 0 8px 25px;
+      position: relative;
+      opacity: 0.5;
+
+      &::before {
+        content: "\ea5e";
+        font-family: tabler-icons !important;
+        position: absolute;
+        left: 0;
+        top: 8px;
+        opacity: 0.5;
+      }
+
+      &.enable {
+        opacity: 1;
+
+        &::before {
+          opacity: 1;
+          color: $success;
+        }
+      }
+    }
+  }
+}
+
+// Price css end
