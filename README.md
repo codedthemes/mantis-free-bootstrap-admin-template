@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Price](https://img.shields.io/badge/price-FREE-0098f7.svg)](https://github.com/codedthemes/mantis-free-bootstrap-admin-template/blob/master/LICENSE)
-[![GitHub package version](https://img.shields.io/github/package-json/v/codedthemes/mantis-free-bootstrap-admin-template)](https://github.com/codedthemes/mantis-free-bootstrap-admin-template/)
+[![GitHub package version](https://img.shields.io/github/package-json/v/codedthemes/mantis-free-bootstrap-admin-template)](https://github.com/codedthemes/mantis-free-bootstrap-admin-template)
 
 
 Mantis is a free Bootstrap admin dashboard template. It is designed to deliver the best possible user experience with highly customizable feature-rich pages. Mantis has easy and intuitive responsive design whether it is viewed on retina screens or laptops.
