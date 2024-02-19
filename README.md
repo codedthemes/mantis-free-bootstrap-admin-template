@@ -11,9 +11,9 @@ Mantis is a free Bootstrap admin dashboard template. It is designed to deliver t
 ![IMG_8566.jpg](https://org-public-assets.s3.us-west-2.amazonaws.com/Free-Version-Banners/GITHUB-FREE-BOOTSTRAP-REPO-Mantis.jpg)
 
 
-[Pro version](https://codedthemes.com/item/mantis-bootstrap-5-admin-template/) of Mantis react template contains features like Mutiple Layouts, Apps, Advance Components, Form Plugins, Layouts, Widgets, and many more.
+[Pro version](https://codedthemes.com/item/mantis-bootstrap-admin-dashboard/) of Mantis react template contains features like Mutiple Layouts, Apps, Advance Components, Form Plugins, Layouts, Widgets, and many more.
 
-| [Mantis Free](https://mantisdashboard.io/bootstrap/free/)    | [Mantis](https://codedthemes.com/item/mantis-bootstrap-5-admin-template/) |
+| [Mantis Free](https://mantisdashboard.io/bootstrap/free/)    | [Mantis](https://codedthemes.com/item/mantis-bootstrap-admin-template/) |
 | ---------------------------------------------------------------------------------------- | :------------------------------------------------------------------------|
 | **9** Demo pages                                                                         | **45+** demo pages                                                       |
 | -                                                                                        | ✓ Multi-language                                                         |
@@ -23,7 +23,7 @@ Mantis is a free Bootstrap admin dashboard template. It is designed to deliver t
 | -                                                                                        | ✓ 6+ color Options                                                       |
 | -                                                                                        | ✓ RTL                                                                    |
 | -                                                                                        | ✓ JWT, Firebase, Auth0 authentications                                   |
-| -                                                                                        | ✓ [More components](https://codedthemes.com/item/mantis-bootstrap-5-admin-template/)         |  
+| -                                                                                        | ✓ [More components](https://codedthemes.com/item/mantis-bootstrap-admin-dashboard/)         |  
 
 
 ## Why Mantis?
@@ -45,7 +45,7 @@ Get started with a sweet set of features including:
 ## Mantis Pro Bootstap 5 version
 
  - [Preview](https://mantisdashboard.io/bootstrap/default/dashboard/index.html)
- - [Purchase from CodedThemes](https://codedthemes.com/item/mantis-bootstrap-5-admin-template/)
+ - [Purchase from CodedThemes](https://codedthemes.com/item/mantis-bootstrap-admin-dashboard/)
 
 ## Table of contents
 
@@ -97,7 +97,7 @@ To report a bug, please submit an [issue](https://github.com/codedthemes/mantis-
 
  - [Free Mantis React](https://github.com/codedthemes/mantis-free-react-admin-template) | [Mantis React Pro](https://mui.com/store/items/mantis-react-material-admin/)
  - [Free Mantis Angular](https://github.com/codedthemes/mantis-free-angular-admin-template) | [Mantis Angular Pro](https://codedthemes.com/item/mantis-angular-admin-dashboard-template/)
- - [Free Mantis Bootstrap](https://github.com/codedthemes/mantis-free-bootstrap-admin-template) | [Mantis Bootstrap Pro](https://codedthemes.com/item/mantis-bootstrap-5-admin-template/)
+ - [Free Mantis Bootstrap](https://github.com/codedthemes/mantis-free-bootstrap-admin-template) | [Mantis Bootstrap Pro](https://codedthemes.com/item/mantis-bootstrap-admin-dashboard/)
  - [Free Mantis Nodejs](https://appseed.us/product/react-node-js-mantis-dashboard) | [Mantis Nodejs Pro](https://appseed.us/full-stack/react-mantis-dashboard)
 
 
