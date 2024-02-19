@@ -4,12 +4,11 @@
 [![Price](https://img.shields.io/badge/price-FREE-0098f7.svg)](https://github.com/codedthemes/mantis-free-bootstrap-admin-template/blob/master/LICENSE)
 [![GitHub package version](https://img.shields.io/github/package-json/v/codedthemes/mantis-free-bootstrap-admin-template)](https://github.com/codedthemes/mantis-free-bootstrap-admin-template)
 
-
 Mantis is a free Bootstrap admin dashboard template. It is designed to deliver the best possible user experience with highly customizable feature-rich pages. Mantis has easy and intuitive responsive design whether it is viewed on retina screens or laptops.
 
 :star: :star: :star: Do not forget to star (Top right of this page) it if you like the theme  :star: :star: :star:
 
-![IMG_8566.jpg](https://mantisdashboard.io/imp-images/mantis-github-free-bootstrap-repo-1.jpg)
+![IMG_8566.jpg](https://org-public-assets.s3.us-west-2.amazonaws.com/Free-Version-Banners/GITHUB-FREE-BOOTSTRAP-REPO-Mantis.jpg)
 
 
 [Pro version](https://codedthemes.com/item/mantis-bootstrap-5-admin-template/) of Mantis react template contains features like Mutiple Layouts, Apps, Advance Components, Form Plugins, Layouts, Widgets, and many more.
