@@ -1,4 +1,4 @@
-name: Node - SSH deploy
+name: Prod deploy
 
 # Controls when the action will run.
 on:
