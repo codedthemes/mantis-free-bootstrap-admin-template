@@ -64,11 +64,11 @@ Clone from Github
 ```
 git clone https://github.com/codedthemes/mantis-free-bootstrap-admin-template.git
 ```
-- Run Yarn
-- Run Gulp
+- Run ```Yarn```
+- Run ```Gulp```
 
 OR
-- Goto /dist and open `index.html`
+- Goto ```/dist``` and open `index.html`
 
 ## Documentation
 
@@ -93,13 +93,13 @@ To report a bug, please submit an [issue](https://github.com/codedthemes/mantis-
 
  - Licensed cover under [MIT](https://github.com/codedthemes/datta-able-bootstrap-dashboard/blob/master/LICENSE)
 
-## Mantis EcoSystem
+## Mantis EcoSystem 
 
  - [Free Mantis React](https://github.com/codedthemes/mantis-free-react-admin-template) | [Mantis React Pro](https://mui.com/store/items/mantis-react-material-admin/)
  - [Free Mantis Angular](https://github.com/codedthemes/mantis-free-angular-admin-template) | [Mantis Angular Pro](https://codedthemes.com/item/mantis-angular-admin-dashboard-template/)
  - [Free Mantis Bootstrap](https://github.com/codedthemes/mantis-free-bootstrap-admin-template) | [Mantis Bootstrap Pro](https://codedthemes.com/item/mantis-bootstrap-admin-dashboard/)
  - [Free Mantis Nodejs](https://appseed.us/product/react-node-js-mantis-dashboard) | [Mantis Nodejs Pro](https://appseed.us/full-stack/react-mantis-dashboard)
-
+ - [Mantis Vue Pro](https://codedthemes.com/item/mantis-vue-admin-template/)
 
 ## More Free Bootstrap Admin Templates
 

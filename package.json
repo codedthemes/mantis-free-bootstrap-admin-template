@@ -1,13 +1,13 @@
 {
-  "name": "mantis-bootstrap-html",
+  "name": "mantis-free-bootstrap-admin-template",
   "version": "1.0.0",
-  "description": "Mantis Bootstrap 5 Admin Dashboard Template",
+  "description": "Mantis Free Bootstrap 5 Admin Dashboard Template",
   "main": "index.js",
+  "license":"MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "CodedThemes",
-  "private":"true",
   "devDependencies": {
     "@babel/core": "^7.22.5",
     "@babel/preset-env": "^7.22.5",
