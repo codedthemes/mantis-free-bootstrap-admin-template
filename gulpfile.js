@@ -26,7 +26,7 @@ const rtl_layout = 'false'; // [ false , true ]
 const box_container = 'false'; // [ false , true ]
 const font_name = 'Public-Sans'; // [ Roboto, Poppins, Inter, Public-Sans ]
 
-const version = 'v1.1';
+const version = 'v2.0.0';
 
 // =======================================================
 
