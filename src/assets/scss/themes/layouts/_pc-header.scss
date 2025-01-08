@@ -107,26 +107,26 @@
       transition: all 0.08s cubic-bezier(0.37, 0.24, 0.53, 0.99);
     }
 
-    >img,
-    >span,
-    >svg,
-    >i {
+    > img,
+    > span,
+    > svg,
+    > i {
       position: relative;
       z-index: 5;
       transition: all 0.08s cubic-bezier(0.37, 0.24, 0.53, 0.99);
     }
 
-    >i {
+    > i {
       color: var(--pc-header-color);
-    }    
-
-    >i {
-      font-size: 20px;
     }
 
-    >svg {
-      width: 20px;
-      height: 20px;
+    > i {
+      font-size: 20px;
+    }
+    > i > svg,
+    > svg {
+      width: 16px;
+      height: 16px;
     }
 
     &.active,
@@ -136,8 +136,8 @@
       text-decoration: none;
       color: var(--pc-header-color);
 
-      >svg,
-      >i {
+      > svg,
+      > i {
         color: var(--pc-header-color);
       }
 
