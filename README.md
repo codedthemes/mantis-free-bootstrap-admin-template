@@ -2,16 +2,16 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Price](https://img.shields.io/badge/price-FREE-0098f7.svg)](https://github.com/codedthemes/mantis-free-bootstrap-admin-template/blob/master/LICENSE)
-[![GitHub package.json version](https://img.shields.io/github/package-json/v/codedthemes/mantis-free-bootstrap-admin-template)]
+![GitHub package.json version](https://img.shields.io/github/package-json/v/codedthemes/mantis-free-bootstrap-admin-template)
+[![Download ZIP](https://img.shields.io/badge/Download-ZIP-blue?style=flat-square&logo=github)](https://codedthemes.com/item/mantis-bootstrap-free-admin-template/)
+[![Join Discord](https://img.shields.io/badge/Join-Discord-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.com/invite/p2E2WhCb6s)
+
 
 Mantis is a free Bootstrap admin dashboard template. It is designed to deliver the best possible user experience with highly customizable feature-rich pages. Mantis has easy and intuitive responsive design whether it is viewed on retina screens or laptops.
 
 ### Name Derived From Nature
 
-Mantis Logo is inspired from the insect name - 'Mantises' as they have triangular heads with flexible Necks. Also, the name is derived from two popular UI frameworks, Material UI and Ant Design (M-Ant-is).
-
-Mantis has Ant Design principal on top of the Material UI React component library.
-
+Mantis Logo is inspired from the insect name - 'Mantises' as they have triangular heads with flexible Necks. Also, the name is derived from two popular UI frameworks, Bootstrap and Ant Design (M-Ant-is).
 
 ✨ Support us! If you like this theme, click the ⭐ (Top right) and let it shine
 
@@ -86,12 +86,11 @@ The [Pro version](https://mantisdashboard.io/bootstrap/default/dashboard) of Man
 | **9** Demo pages                                      | **45+** demo pages                                                                                                                                             |
 | -                                                     | ✓ Multi-language                                                                                                                                               |
 | -                                                     | ✓ Dark/Light Mode 🌓                                                                                                                                           |
-| -                                                     | ✓ TypeScript version                                                                                                                                           |
 | -                                                     | ✓ Design files (Figma)                                                                                                                                         |
 | -                                                     | ✓ 6+ color Options           |
 | -                                                     | ✓ RTL                                                                                                                                                          |
-| -                                                     | ✓ JWT, Firebase, Auth0 authentications                                                                                         |
 | -                                                     | ✓ [More components](https://codedthemes.com/item/mantis-bootstrap-admin-dashboard/)                                                                                     |
+| ✓ [MIT License](https://github.com/codedthemes/mantis-free-bootstrap-admin-template/blob/master/LICENSE)                                           | ✓ [Pro License](https://codedthemes.com/item/mantis-bootstrap-admin-dashboard/) |
 
 ## Documentation
 
@@ -132,7 +131,7 @@ The [Pro version](https://mantisdashboard.io/bootstrap/default/dashboard) of Man
 
 | Dashboard | FREE | PRO | 
 | ----- | ---- | ---- |
-| <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/Berry%20with%20name.png"  height="30" style="display:inline-block; vertical-align:middle;"> | [**Free**](https://codedthemes.com/item/berry-mui-free-react-admin-template/) | [**Pro**](https://codedthemes.com/item/berry-material-react-admin-template/)</span>|
+| <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/Berry%20with%20name.png"  height="30" style="display:inline-block; vertical-align:middle;"> | [**Free**](https://codedthemes.com/item/berry-bootstrap-free-admin-template/) | [**Pro**](https://codedthemes.com/item/berry-bootstrap-5-admin-template/)</span>|
 | <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/Datta%20with%20name.png" height="30" style="display:inline-block; vertical-align:middle;">  | [**Free**](https://codedthemes.com/item/datta-able-bootstrap-lite/) | [**Pro**](https://codedthemes.com/item/datta-able-bootstrap-admin-template/)</span>|
 | <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/Gradient%20with%20name.png" height="30" style="display:inline-block; vertical-align:middle;"> | [**Free**](https://codedthemes.com/item/gradient-able-bootstrap-lite/) | [**Pro**](https://codedthemes.com/item/gradient-able-admin-template/)</span>|
 
@@ -141,7 +140,7 @@ The [Pro version](https://mantisdashboard.io/bootstrap/default/dashboard) of Man
 Please generate a [Github issue](https://github.com/codedthemes/mantis-free-bootstrap-admin-template/issues) if you found a bug in any version. We are try our best to resolve the issue.
 
 ## License 
-- Licensed under [MIT](https://github.com/codedthemes/datta-able-bootstrap-dashboard/blob/master/LICENSE)
+- Licensed under [MIT](https://github.com/codedthemes/mantis-free-bootstrap-admin-template/blob/master/LICENSE)
 - Copyright © [CodedThemes](https://codedthemes.com/)
 
 ## Contributor
