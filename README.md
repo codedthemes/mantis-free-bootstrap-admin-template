@@ -1,4 +1,4 @@
-# Mantis Free Bootstrap Admin Template [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Get%20Berry%20Angular%20-%20The%20Most%20Beautiful%20Bootstrap%20Designed%20Admin%20Dashboard%20Template%20&url=https://berrydashboard.io/angular/default&via=codedthemes&hashtags=angular,webdev,developers,typescript)
+# Mantis Free Bootstrap Admin Template [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Get%20Berry%20Angular%20-%20The%20Most%20Beautiful%20Bootstrap%20Designed%20Admin%20Dashboard%20Template%20&url=https://berrydashboard.com/angular/default&via=codedthemes&hashtags=angular,webdev,developers,typescript)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Price](https://img.shields.io/badge/price-FREE-0098f7.svg)](https://github.com/codedthemes/mantis-free-bootstrap-admin-template/blob/master/LICENSE)
@@ -61,10 +61,10 @@ yarn run start
 ## Download
 
 - Mantis Free 
-    - [Live Preview](https://mantisdashboard.io/bootstrap/free/) 
+    - [Live Preview](https://mantisdashboard.com/bootstrap/free/) 
     - [Download](https://github.com/codedthemes/mantis-free-bootstrap-admin-template/)
 - Mantis Pro 
-    - [Live Preview](https://mantisdashboard.io/bootstrap/default/dashboard) 
+    - [Live Preview](https://mantisdashboard.com/bootstrap/default/dashboard) 
     - [Download](https://codedthemes.com/item/mantis-bootstrap-admin-dashboard/)
       
 ## Why Mantis? 
@@ -79,9 +79,9 @@ Get started with a sweet set of features including:
 - Easy Documentation Guide
 
 ## What's included in Premium Version?
-The [Pro version](https://mantisdashboard.io/bootstrap/default/dashboard) of Mantis react template contains features like Mutiple Layouts, Apps, Advance Components, Form Plugins, Layouts, Widgets, and many more.
+The [Pro version](https://mantisdashboard.com/bootstrap/default/dashboard) of Mantis react template contains features like Mutiple Layouts, Apps, Advance Components, Form Plugins, Layouts, Widgets, and many more.
 
-| [Mantis Free](https://mantisdashboard.io/bootstrap/free/) | [Mantis](https://mantisdashboard.io/bootstrap/default/dashboard) |
+| [Mantis Free](https://mantisdashboard.com/bootstrap/free/) | [Mantis](https://mantisdashboard.com/bootstrap/default/dashboard) |
 | ----------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **9** Demo pages                                      | **45+** demo pages                                                                                                                                             |
 | -                                                     | ✓ Multi-language                                                                                                                                               |
